@@ -1,0 +1,18 @@
+.main {
+    margin: 0 auto;
+    grid-area: Main; 
+    height: 450px;
+    background-color: #e06666;
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 0.3fr 0.3fr 0.3fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px 0px; 
+    grid-template-areas: 
+        ". . ."
+        "Advertisiment Advertisiment Advertisiment"; 
+    justify-items: center;
+    justify-content: space-between;
+    width:90%; 
+    padding: 20px;
+}   

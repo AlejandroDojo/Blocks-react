@@ -1,0 +1,16 @@
+.app {
+  margin: 0 auto;
+  display: grid;
+  background-color: #dddddd;
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 0.3fr 1fr; 
+  grid-template-rows: 120px 1fr; 
+  gap: 10px 0px;
+  padding-bottom: 10px;
+  grid-template-areas: 
+    "Header Header"
+    "Navigator Main"; 
+  justify-items: center;
+  justify-content: center; 
+  width: 1000px; 
+}

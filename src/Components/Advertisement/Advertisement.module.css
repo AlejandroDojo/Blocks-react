@@ -1,0 +1,7 @@
+.advertisement {
+    grid-area: Advertisiment;
+    background-color: #b4a7d6;
+    align-self: center;
+    width:97%;
+    height: 200px;
+}
